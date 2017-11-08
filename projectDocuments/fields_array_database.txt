@@ -1,0 +1,130 @@
+﻿================= restaurant
+
+
+restaurant_status_array
+open - close - busy - hidden
+
+
+restaurant_available_payment_array
+Knet - visa - masterCard - cash on delivery
+
+restaurant_offline_order
+enable - disable
+
+restaurant_commission_type_array
+percentage - fixed
+
+restaurant_discount_type_array
+percentage - fixed
+
+
+
+================= payment
+
+payment_status_array
+pending - canceled - completed
+
+payment_type_array
+Knet - visa - masterCard - cash on delivery
+
+================= delivery_menu
+delivery_menu_status_array
+hide - show
+
+================= banner
+
+banner_status_array
+enable - disable
+
+
+================= cuisine 
+
+cuisine_status_array
+hide - show
+
+================= cart
+dish_id/quantity/unit_price/total_price/special_request
+
+
+================= address
+name/type/first_name/last_name/area/pacl_number/block/street/avenue/building/floor/apartment_number/mobile_number/phone
+/directions/long/lat
+
+
+================= order_driver
+order_id/users_id/status/note
+
+order_driver_status_array
+pending - assigned - reject_by_driver - deliverd
+
+================= users
+first_name/last_name/mobile/mobile_company/phone_number/gender/occupation
+
+users_gender_array
+male - female
+
+================= menu_section
+name/restaurant_id/description/status
+
+menu_section_status_array
+
+
+================= dish
+name/cuisine/ description/price/quantity/delivery_menu_id/parent_id/restaurant_id/menu_section_id/status/img/
+category_id/discount/available_from/available_to
+
+
+================= category
+name/min_quantity/max_quantity/restuarant_id
+
+================= restaurant_rate
+users_id/restaurant_id/rate/description/status
+
+================= dish_rate
+users_id/dish_id/rate/description/status
+
+================= contact_us
+users_id/email/phone/comments
+
+
+================= category
+name/min_quantity/max_quantity/restaurant_id
+
+================= area
+name/delivery_charges/sahalat_charge/min_amount/deliver_time_from/deliver_time_to/
+status/operation_hour/governorate_id
+
+================= operation_hour
+area_id/day/shift1_from/shift1_to/shift2_from/shift2_to
+
+================= governorate
+name
+
+================= service_boy
+manager_id/users_id/company_id
+
+
+================= service_company
+name
+
+================= service_company_order
+service_company_id/order_id/service_boy_id/status/description
+
+================= driver
+users_id/sahalat_driver/restaurant_id
+
+================= cms
+title/alias/content
+
+
+
+
+================= restaurant_users
+restaurant_id/users_id/status/type
+
+restaurant_users_status_array
+online - offline
+
+restaurant_users_type_array
+admin - Call Center  -	Service -	Dispatcher -	Driver - Review Comments
+

@@ -1,0 +1,225 @@
+//////////////////////////////css for arabic
+
+
+
+
+/////////////////////////place for rating and users comments
+
+////////////////////////////popup when user rate the dish or restaurant (look to the srs)
+
+
+/////////////////////////////////////register link place
+/////////////////////////////////////order new restaurant link
+
+///////////////////////////////////cart page
+
+/////////////////////////////////menu sections for restaurant dishes
+
+
+pagination for restaurant and dishes pages
+
+
+
+
+/*
+/////////////////////////cuisine hide show and it's effect
+////////////////////////discount for restaurant type and for each dish count the discount in order
+commission
+
+////////////////////////dish quantity validation when order
+////////////////////////dish available from to validation
+
+delivery menu
+
+///////////////////////////////////rating for restaurant and dishes
+
+available payment restaurant and restaurant detail page
+
+///////////sign in by social media
+///////////change password
+//////////////reset password
+
+emails and notifications
+
+//////////////////////////////banner and admin cms banner
+
+///////////////////////icon fav on the browser tab
+
+map for each governotation
+
+////////////////////////////update user and user details
+
+////////////////////////////register button and login button direct to account when user is logged in
+
+restaurant expected time delivery in database and restaurant area with restaurant detail pages
+
+/////////////////////////////////////expecting deliver time
+/////////////////////////////////////delete item or dish from order page and change quantity
+
+/////////////////////////////////////thanks page for order
+
+////////////////////////////////display driver info and phone in tracking page
+
+o	By Order Number (optional)
+o	By user name (optional)
+o	By coffee shop (optional)
+o	By Ordering Type (Quick order/ registered user) (optional)
+o	By Payment methods (optional)
+o	From – To Date (required)
+o	Allow user to print the report or save it as Excel
+
+
+/////////////////totals for sales and orders and payment and reports
+payment type report
+
+//////////////////////edit website info email phone social media and others
+
+
+/*__________________________________
+
+///////////////////////////////////restaurant place
+
+//////////////////////////////////hide sahalat charge (the effect of sahalat shoud be in the back ) it may take charge from the restaurant
+
+///////////show all drivers and restaurant on the map with colors and how many order he cary and if he going back to the restaurant
+
+green avaliable - yellow is going back and have no order - late order  >>> etc
+
+///////////////////pendign orders color (payed but not assinged to any driver )
+
+///////////////////logo of the restaurnt
+
+
+///////////////////service company and assign to servies boy
+///////////////////driver ____> service company -----> service boy >>>
+
+/*____________________________________________
+//////////////////////////////payment filteration and total (restaurant filter - users filter ..... etc )
+
+
+map for areas selling and live one.
+
+
+update restaurant place (and link for it)
+
+
+
+
+
+//////////////////? Order --> Order Time:
+//////////////////User will have 2 options:
+//////////////////1) Make order now
+//////////////////2) Choose desired time for order.
+
+
+/////////////////////////////////////////////? Re-Order:
+/////////////////////////////////////////////- Add option to change quantity.
+/////////////////////////////////////////////- Add option to Add / Delete item.
+
+? Sahalat Admin - Dispatcher
+- The following should be applied on the map:
+a. View all orders received from the clients along with the status of each order. If the order is not done it should be blinking.
+////////////////////////////////////////////b. Add restaurant logos to the map..
+////////////////////////////////////////////c. Location of all drivers
+/////////////////////////////////////////d. The load on each driver
+e. Status & order for each driver, with a color code for each status. For example:
+  //////////////////////////      1. The driver is available – green color.
+        2. The driver delivered the order & coming back to restaurant: white.
+////////////////////////////3. The driver has several orders – different color
+4. Service Boy: Red color.
+
+///////////////////////////? Service Company:
+- If the driver faced any issues when he/she is going to deliver the order like (flat tire, accident), the service company will send a service boy to fix the issue.
+- The driver can choose the issue from a drop down list (Check box). Or he can choose others and write down the issue.
+- There will be an option to choose a branch, choose a driver then add a description for admin panel.
+
+/////////////////////////////////////? Payment: Add Option to filter results for the restaurant.
+
+? The Map Dashboard will allows restaurants admin to view a map of Kuwait cities, each city will have a number of orders, and this map will display a number of orders in each city.
+The number of orders in each city should increasing when a new orders have been submitted.
+
+
+
+In all of these phases the customers will receive a notification.Especially the driver is 2 minutes far from the target address and once the driver is arrived at the door.
+
+
+
+
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+paci number of address check
+
+update restaurant place (and link for it)
+
+
+? Sahalat Charges:
+- In restaurant delivers the order from his side, Sahalat charges will be Zero.
+
+? Audit Tracking:
+- There will be audit track for each admins activities in the Sahalat admin panel and the changes in Sahalat admin panel.
+
+? Sahalat Dispatcher should be able to see if the driver is logged in to the mobile app (online / offline).
+He should also be able to see the drivers’ mobile battery status.
+
+? Sending SMS and PACI number still needs to be applied in the system.
+? Sahalat Charges will be hidden from the customer.
+
+
+
+/*************************************************************************************________________________________sahalat______*/
+Dear Mohammed,
+
+Please find the bellow comments from our last meeting with Sahalat client on Tuesday 20/06/2017:
+
+Please start working on the comments and provide time estimation.
+If you have any questions please let me know.
+
+
+-- Billing reports
+1. To review and discuss client comments on Sahalat admin panel.
+2. Admin – Route Map
+- Active order should be displayed as a pulse
+- Change Location map to have restaurant logo inside the pin.
+- Add restaurant names to the right side to the map (sorted from largest orders to smallest).
+3. Orders – Pagination:
+- Auto refresh orders on each new order (on demo only)
+- Add option to add page number as a text.
+4. Payment:
+- Add more details to the table so it’s more clear for the admin:
+- For KNET – Email verification might be needed – regarding guest users
+- In payment list, add label for guest users instead of blank name.
+
+5. Address:
+- Check for a source for areas of Kuwait, and if street & area can be linked together:
+For example: Hawalli area doesn’t have street so system will not accept the address.
+
+6. Restaurant:
+- Add different view for restaurants for Pending, Open & Closed.
+
+7. Category
+What is it used for, and what do we mean by minimum quantity, maximum quantity?
+
+8. Delivery Menu
+What is it used for?
+
+9. Cuisine:
+- Cuisines for each restaurant will be displayed on one row.
+
+10. Create Restaurant Area:
+- Governorate should be at the top followed by Area, with option for “Select All Areas”
+
+11. Restaurant Menu
+- It’s bigger than screen height, modify it so that all elements are displayed.
+
+12. Service Company:
+- Add option for Sahalat admin to view all active requests with drivers and service boys.
+
+13. Create User:
+- Add option for Photo & type of vehicle (selected from a drop down list).
+
+14. Mobile App SMS will be the same as Email templates.
+15. Add new orders to dispatcher map for the client to review.
+
+
+/*************************************************************************************______________________END__________sahalat______*/

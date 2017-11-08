@@ -1,0 +1,95 @@
+﻿================= governorate
+name_en/name_ar
+
+================= area
+name_en/name_ar/description_en/description_ar/governorate_id
+
+================= restaurant
+name_en/name_ar/Owner_first_name/Owner_last_name/email/telephone/address_en/address_ar/description_en/description_ar/status/min_amount/working_hour_from/working_hour_to/deliver_time_from/deliver_time_to/deliver_charge
+/available_payment/rating/show_menu/order_accept_days/offline_order/summary_en/summary_ar/url/img/commission_type/discount_type/
+discount/area_id/follow_us/notification
+
+
+================= category
+name_en/name_ar/min_quantity/max_quantity/restaurant_id
+
+================= cuisine
+name_en/name_ar/ description_en/description_ar /status
+
+================= delivery_menu
+name_en/name_ar/description_en/description_ar/status/restaurant_id
+
+================= restaurant_rate
+users_id/restaurant_id/rate/description/status/notification
+
+================= restaurant_cuisine
+restaurant_id/cuisine_id
+
+
+================= menu_section
+name_en/name_ar/restaurant_id/description_en/description_ar/status
+
+
+================= dish
+name_en/name_ar/cuisine_id/ description_en/description_ar/price/quantity/delivery_menu_id/parent_id/restaurant_id/menu_section_id/status/img/category_id/discount/available_from/available_to
+
+================= dish_rate
+users_id/dish_id/rate/description/status/notification
+
+
+================= restaurant_area
+area_id/restaurant_id/delivery_charges/sahalat_charge/min_amount/deliver_time_from/deliver_time_to/status/governorate_id
+
+================= operation_hour
+restaurant_area_id/restaurant_id/day/shift1_from/shift1_to/shift2_from/shift2_to
+
+================= order
+users_id/area_id/from_id/address_id/order_time/deliver_time/deliver_date/note/deliver_charge/rate/point/status/notification
+
+================= payment
+order_id/users_id/amount/status/type/notification
+
+================= cart
+restaurant_id/users_id/dish_id/deliver_charge/quantity/unit_price/total_price/special_request/order_id
+
+================= address
+users_id/name/type/first_name/last_name/area/pacl_number/block/street/judda/avenue/building/floor/apartment_number/mobile_number/phone
+/directions/long/lat/default/notification
+
+================= order_driver
+order_id/users_id/current_long/current_lat/status/note/notification
+
+================= users
+first_name/last_name/email/password/mobile/mobile_company/phone/gender/occupation/session_id
+
+
+================= service_company
+name
+
+================= service_boy
+manager_id/users_id/service_company_id/status
+
+================= service_company_order
+service_company_id/order_id/service_boy_id/status/description/notification
+
+
+
+
+================= cms
+title_en/title_ar/alias/content_en/content_ar
+
+
+================= banner
+img/order/status
+
+
+================= contact_us
+users_id/email/phone/comments
+
+================= restaurant_users
+restaurant_id/users_id/status/type
+
+
+
+================= audit_track
+Action/users_name/users_role/Description/created_date/updated_date

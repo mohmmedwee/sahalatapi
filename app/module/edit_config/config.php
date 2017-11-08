@@ -1,0 +1,1 @@
+<?php return ['restaurant_rate'=>'0','restaurant_rate_active_index'=>'0','restaurant_rate_not_active_index'=>'1','_token'=>'YjUtijwJsEa1Y17RGUrhx07hokb4AMPvbmiEHrP8','max_guest_order'=>'1','max_reach_notification_phone'=>'55616416','max_reach_notification_email'=>'taylorsuccessor@gmail.com',];

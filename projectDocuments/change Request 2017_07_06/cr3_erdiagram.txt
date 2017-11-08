@@ -1,0 +1,54 @@
+32.54446172986358,36.41870677471161
+deliver_package
+deliver_number - price
+
+offer
+deliver_number - price 
+
+
+resturant_offer
+resturant_id - offer_id - status
+
+resturant_notification
+resturant_id - order_status- status
+status =>(on - off)
+
+
+order_driver(add)
+"delivering_id","deliver_distance","deliver_time","return_distance","return_time"
+
+delivering_id =>to group the orders that delivered togother in the same delivering progress
+distance => the total distance which was taken to deliver order.
+
+1- first report:
+group by (order_driver=>delivering_id)
+days in horizintal each day with number of orders with the same delivering_id
+
+2- report 1:
+distance in each day but you have to group the distance from
+1 -> 15
+16 ->30
+31->infinity 
+
+3- time 
+
+time in each day but you have to group the time from
+1 -> 15
+16 ->30
+31->infinity 
+
+
+4- number of orders per regions
+select the type of order success or not
+
+
+5- 
+a - deliver time and return compaire in distance
+b - deliver time and return compaire in time
+
+6- work hours and free hours for each driver and all drivers
+
+
+
+7 - one day drivers working hours and rest
+

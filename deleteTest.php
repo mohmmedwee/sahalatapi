@@ -1,0 +1,110 @@
+
+$this->app->bind(
+    'App\Repositories\website\governorate\GovernorateContract',
+    'App\Repositories\website\governorate\EloquentGovernorateRepository'
+);
+$this->app->bind(
+    'App\Repositories\website\area\AreaContract',
+    'App\Repositories\website\area\EloquentAreaRepository'
+);
+$this->app->bind(
+    'App\Repositories\website\restaurant\RestaurantContract',
+    'App\Repositories\website\restaurant\EloquentRestaurantRepository'
+);
+$this->app->bind(
+    'App\Repositories\website\category\CategoryContract',
+    'App\Repositories\website\category\EloquentCategoryRepository'
+);
+$this->app->bind(
+    'App\Repositories\website\cuisine\CuisineContract',
+    'App\Repositories\website\cuisine\EloquentCuisineRepository'
+);
+$this->app->bind(
+    'App\Repositories\website\delivery_menu\DeliveryMenuContract',
+    'App\Repositories\website\delivery_menu\EloquentDeliveryMenuRepository'
+);
+$this->app->bind(
+    'App\Repositories\website\restaurant_rate\RestaurantRateContract',
+    'App\Repositories\website\restaurant_rate\EloquentRestaurantRateRepository'
+);
+$this->app->bind(
+    'App\Repositories\website\restaurant_cuisine\RestaurantCuisineContract',
+    'App\Repositories\website\restaurant_cuisine\EloquentRestaurantCuisineRepository'
+);
+$this->app->bind(
+    'App\Repositories\website\menu_section\MenuSectionContract',
+    'App\Repositories\website\menu_section\EloquentMenuSectionRepository'
+);
+$this->app->bind(
+    'App\Repositories\website\dish\DishContract',
+    'App\Repositories\website\dish\EloquentDishRepository'
+);
+$this->app->bind(
+    'App\Repositories\website\dish_rate\DishRateContract',
+    'App\Repositories\website\dish_rate\EloquentDishRateRepository'
+);
+$this->app->bind(
+    'App\Repositories\website\restaurant_area\RestaurantAreaContract',
+    'App\Repositories\website\restaurant_area\EloquentRestaurantAreaRepository'
+);
+$this->app->bind(
+    'App\Repositories\website\operation_hour\OperationHourContract',
+    'App\Repositories\website\operation_hour\EloquentOperationHourRepository'
+);
+$this->app->bind(
+    'App\Repositories\website\order\OrderContract',
+    'App\Repositories\website\order\EloquentOrderRepository'
+);
+$this->app->bind(
+    'App\Repositories\website\banner\BannerContract',
+    'App\Repositories\website\banner\EloquentBannerRepository'
+);
+
+$this->app->bind(
+    'App\Repositories\website\payment\PaymentContract',
+    'App\Repositories\website\payment\EloquentPaymentRepository'
+);
+$this->app->bind(
+    'App\Repositories\website\cart\CartContract',
+    'App\Repositories\website\cart\EloquentCartRepository'
+);
+$this->app->bind(
+    'App\Repositories\website\address\AddressContract',
+    'App\Repositories\website\address\EloquentAddressRepository'
+);
+$this->app->bind(
+    'App\Repositories\website\order_driver\OrderDriverContract',
+    'App\Repositories\website\order_driver\EloquentOrderDriverRepository'
+);
+$this->app->bind(
+    'App\Repositories\website\users\UsersContract',
+    'App\Repositories\website\users\EloquentUsersRepository'
+);
+$this->app->bind(
+    'App\Repositories\website\service_company\ServiceCompanyContract',
+    'App\Repositories\website\service_company\EloquentServiceCompanyRepository'
+);
+$this->app->bind(
+    'App\Repositories\website\service_boy\ServiceBoyContract',
+    'App\Repositories\website\service_boy\EloquentServiceBoyRepository'
+);
+$this->app->bind(
+    'App\Repositories\website\service_company_order\ServiceCompanyOrderContract',
+    'App\Repositories\website\service_company_order\EloquentServiceCompanyOrderRepository'
+);
+$this->app->bind(
+    'App\Repositories\website\cms\CmsContract',
+    'App\Repositories\website\cms\EloquentCmsRepository'
+);
+$this->app->bind(
+    'App\Repositories\website\contact_us\ContactUsContract',
+    'App\Repositories\website\contact_us\EloquentContactUsRepository'
+);
+$this->app->bind(
+    'App\Repositories\website\restaurant_users\RestaurantUsersContract',
+    'App\Repositories\website\restaurant_users\EloquentRestaurantUsersRepository'
+);
+$this->app->bind(
+    'App\Repositories\website\audit_track\AuditTrackContract',
+    'App\Repositories\website\audit_track\EloquentAuditTrackRepository'
+);

@@ -1,0 +1,17 @@
+
+/vendor
+/node_modules
+Homestead.yaml
+Homestead.json
+.env
+/.idea
+/storage
+/storage/logs/laravel.log
+/storage/logs/laravel.log
+/public/excel
+/storage/logs/laravel.log
+
+/nbproject/private/
+/nbproject
+
+/storage/logs/laravel.log
